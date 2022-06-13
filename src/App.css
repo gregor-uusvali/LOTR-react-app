@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Josefin Slab', serif;
 }
 
 .App-logo {
@@ -9,18 +12,19 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(https://wallpaperaccess.com/full/1224063.jpg);
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(13px + 2vmin);
   color: white;
 }
 
@@ -33,6 +37,25 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
+}
+
+.btn {
+  background-color: coral;
+  border: 2px solid white;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+
+a {
+  color: white;
 }
